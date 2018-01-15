@@ -1,8 +1,7 @@
 <?php
 
-use think\facate\Hook;
-use think\facate\Route;
-
+use think\facade\Hook;
+use think\facade\Route;
 
 \think\Console::addDefaultCommands([
     \myxland\social\library\SendConfig::class,

@@ -19,7 +19,7 @@ class SendConfig extends Command
         //获取默认配置文件
         $content = file_get_contents(Env::get('root_path') . 'vendor/' . 'myxland/think-social/src/config.php');
 
-        $configPath = Env::get('root_path') . 'conf/';
+        $configPath = Env::get('root_path') . 'config/';
         $configFile = $configPath . 'social.php';
 
         //判断目录是否存在
